@@ -1,0 +1,64 @@
+[
+  {
+    "model": "materials.course",
+    "pk": 1,
+    "fields": {
+      "title": "Курс компьютерной грамотности",
+      "image": "",
+      "description": "начальный курс по базовым знаниям владения компьютера"
+    }
+  },
+  {
+    "model": "materials.course",
+    "pk": 2,
+    "fields": {
+      "title": "Введение в программирование",
+      "image": "",
+      "description": "начальный курс по базовым знаниям програмирования"
+    }
+  },
+  {
+    "model": "materials.lesson",
+    "pk": 1,
+    "fields": {
+      "course": 2,
+      "title": "1.1 Введение в профессию и основы алгоритмизации",
+      "description": "some info",
+      "image": "",
+      "url_video": null
+    }
+  },
+  {
+    "model": "materials.lesson",
+    "pk": 2,
+    "fields": {
+      "course": 2,
+      "title": "2.1 Основы синтаксиса",
+      "description": "Вывод данных, арифметические операции",
+      "image": "",
+      "url_video": null
+    }
+  },
+  {
+    "model": "materials.lesson",
+    "pk": 3,
+    "fields": {
+      "course": 2,
+      "title": "3.1 Списки и циклы",
+      "description": "Как создавать списки. Индексы элементов списка",
+      "image": "",
+      "url_video": null
+    }
+  },
+  {
+    "model": "materials.lesson",
+    "pk": 4,
+    "fields": {
+      "course": 1,
+      "title": "Основы компьютерной грамотности для детей",
+      "description": "предназначен для взрослых и детей старше 7 лет, которые не знакомы с компьютером. Информация излагается в комфортном темпе, понятным языком.",
+      "image": "",
+      "url_video": null
+    }
+  }
+]

@@ -1,0 +1,117 @@
+[
+  {
+    "model": "materials.course",
+    "pk": 1,
+    "fields": {
+      "title": "Курс компьютерной грамотности",
+      "image": "",
+      "description": "начальный курс по базовым знаниям владения компьютера"
+    }
+  },
+  {
+    "model": "materials.course",
+    "pk": 2,
+    "fields": {
+      "title": "Введение в программирование",
+      "image": "",
+      "description": "начальный курс по базовым знаниям програмирования"
+    }
+  },
+  {
+    "model": "materials.course",
+    "pk": 3,
+    "fields": {
+      "title": "test1",
+      "image": "",
+      "description": "test text"
+    }
+  },
+  {
+    "model": "materials.lesson",
+    "pk": 1,
+    "fields": {
+      "course": 2,
+      "title": "1.1 Введение в профессию и основы алгоритмизации",
+      "description": "some info",
+      "image": "",
+      "url_video": null
+    }
+  },
+  {
+    "model": "materials.lesson",
+    "pk": 2,
+    "fields": {
+      "course": 2,
+      "title": "2.1 Основы синтаксиса",
+      "description": "Вывод данных, арифметические операции",
+      "image": "",
+      "url_video": null
+    }
+  },
+  {
+    "model": "materials.lesson",
+    "pk": 3,
+    "fields": {
+      "course": 2,
+      "title": "3.1 Списки и циклы",
+      "description": "Как создавать списки. Индексы элементов списка",
+      "image": "",
+      "url_video": null
+    }
+  },
+  {
+    "model": "materials.lesson",
+    "pk": 4,
+    "fields": {
+      "course": 1,
+      "title": "Основы компьютерной грамотности для детей",
+      "description": "предназначен для взрослых и детей старше 7 лет, которые не знакомы с компьютером. Информация излагается в комфортном темпе, понятным языком.",
+      "image": "",
+      "url_video": null
+    }
+  },
+  {
+    "model": "materials.lesson",
+    "pk": 5,
+    "fields": {
+      "course": 1,
+      "title": "Урок по кибербезопасности",
+      "description": "Специалисты по кибербезопасности защищают IT-системы от взломов, которые приводят к сбоям в работе и утечкам данных. Проектируют и поддерживают внутренние системы компаний. Тестируют веб-сервисы и приложения, чтобы найти и устранить уязвимости до того, как о них узнают злоумышленники.",
+      "image": "",
+      "url_video": null
+    }
+  },
+  {
+    "model": "materials.lesson",
+    "pk": 6,
+    "fields": {
+      "course": 1,
+      "title": "Аналитика данных",
+      "description": "Аналитик данных выясняет, на каком этапе теряется интерес пользователей. Затем предлагает и проверяет гипотезы, которые помогут удержать клиента и довести до покупки.",
+      "image": "",
+      "url_video": null
+    }
+  },
+  {
+    "model": "materials.lesson",
+    "pk": 7,
+    "fields": {
+      "course": 1,
+      "title": "test1",
+      "description": "test text",
+      "image": "",
+      "url_video": null
+    }
+  },
+  {
+    "model": "materials.lesson",
+    "pk": 8,
+    "fields": {
+      "course": 3,
+      "title": "test2",
+      "description": "test text 2",
+      "image": "",
+      "url_video": null
+    }
+  }
+]
